@@ -1,0 +1,109 @@
+{
+  "name": "MonStageAuMaroc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "weeks": [
+    {
+      "week": 1,
+      "images": [
+        "images/semaine1/ArriveeMaroc.jpg",
+        "images/semaine1/ArriveeMaroc2.jpg",
+        "images/semaine1/DevantSQORUS.jpg",
+        "images/semaine1/HassanII_0.jpg",
+        "images/semaine1/HassanII_1.jpg",
+        "images/semaine1/HassanII_2.jpg",
+        "images/semaine1/HassanII_3.jpg",
+        "images/semaine1/HassanII_4.jpg",
+        "images/semaine1/HassanII_5.jpg",
+        "images/semaine1/HassanII_6.jpg",
+        "images/semaine1/SurvolFrance.jpg",
+        "images/semaine1/TerrasseSQORUS.jpg",
+        "images/semaine1/Tortue.jpg",
+        "images/semaine1/orlyDep.jpg",
+        "images/semaine1/rue.jpg"
+      ]
+    },
+    {
+      "week": 2,
+      "images": [
+        "images/semaine2/image1.jpg",
+        "images/semaine2/image2.jpg"
+      ]
+    },
+    {
+      "week": 3,
+      "images": [
+        "images/semaine3/image1.jpg",
+        "images/semaine3/image2.jpg"
+      ]
+    },
+    {
+      "week": 4,
+      "images": [
+        "images/semaine4/image1.jpg",
+        "images/semaine4/image2.jpg"
+      ]
+    },
+    {
+      "week": 5,
+      "images": [
+        "images/semaine5/image1.jpg",
+        "images/semaine5/image2.jpg"
+      ]
+    },
+    {
+      "week": 6,
+      "images": [
+        "images/semaine6/image1.jpg",
+        "images/semaine6/image2.jpg"
+      ]
+    },
+    {
+      "week": 7,
+      "images": [
+        "images/semaine7/image1.jpg",
+        "images/semaine7/image2.jpg"
+      ]
+    },
+    {
+      "week": 8,
+      "images": [
+        "images/semaine8/image1.jpg",
+        "images/semaine8/image2.jpg"
+      ]
+    },
+    {
+      "week": 9,
+      "images": [
+        "images/semaine9/image1.jpg",
+        "images/semaine9/image2.jpg"
+      ]
+    },
+    {
+      "week": 10,
+      "images": [
+        "images/semaine10/image1.jpg",
+        "images/semaine10/image2.jpg"
+      ]
+    },
+    {
+      "week": 11,
+      "images": [
+        "images/semaine11/image1.jpg",
+        "images/semaine11/image2.jpg"
+      ]
+    },
+    {
+      "week": 12,
+      "images": [
+        "images/semaine12/image1.jpg",
+        "images/semaine12/image2.jpg"
+      ]
+    }
+  ]
+}
