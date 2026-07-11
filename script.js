@@ -20,30 +20,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
                                 let currentImageIndex = 0;
 
+                                // Create initial structure once
+                                const carouselItem = document.createElement('div');
+                                carouselItem.classList.add('carousel-item');
+                                const imgElement = document.createElement('img');
+                                imgElement.alt = `Image Semaine ${currentWeekNumber}`;
+                                carouselItem.appendChild(imgElement);
+
+                                const carouselControls = document.createElement('div');
+                                carouselControls.classList.add('carousel-controls');
+                                const prevButton = document.createElement('button');
+                                prevButton.classList.add('prev-button');
+                                prevButton.innerHTML = '&lt;';
+                                const nextButton = document.createElement('button');
+                                nextButton.classList.add('next-button');
+                                nextButton.innerHTML = '&gt;';
+                                carouselControls.appendChild(prevButton);
+                                carouselControls.appendChild(nextButton);
+
+                                carouselContainer.appendChild(carouselItem);
+                                carouselContainer.appendChild(carouselControls);
+
                                 const displayImage = () => {
-                                    carouselContainer.innerHTML = `
-                                        <div class="carousel-item">
-                                            <img src="${weekData.images[currentImageIndex]}" alt="Image Semaine ${currentWeekNumber}">
-                                        </div>
-                                        <div class="carousel-controls">
-                                            <button class="prev-button">&lt;</button>
-                                            <button class="next-button">&gt;</button>
-                                        </div>
-                                    `;
-
-                                    const prevButton = carouselContainer.querySelector('.prev-button');
-                                    const nextButton = carouselContainer.querySelector('.next-button');
-
-                                    prevButton.addEventListener('click', () => {
-                                        currentImageIndex = (currentImageIndex - 1 + weekData.images.length) % weekData.images.length;
-                                        displayImage();
-                                    });
-
-                                    nextButton.addEventListener('click', () => {
-                                        currentImageIndex = (currentImageIndex + 1) % weekData.images.length;
-                                        displayImage();
-                                    });
+                                    imgElement.src = weekData.images[currentImageIndex];
                                 };
+
+                                prevButton.addEventListener('click', () => {
+                                    currentImageIndex = (currentImageIndex - 1 + weekData.images.length) % weekData.images.length;
+                                    displayImage();
+                                });
+
+                                nextButton.addEventListener('click', () => {
+                                    currentImageIndex = (currentImageIndex + 1) % weekData.images.length;
+                                    displayImage();
+                                });
 
                                 displayImage(); // Initial display
                             }

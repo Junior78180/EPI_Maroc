@@ -11,28 +11,26 @@
     {
       "week": 1,
       "images": [
+        "images/semaine1/orlyDep.jpg",
+        "images/semaine1/SurvolFrance.jpg",
         "images/semaine1/ArriveeMaroc.jpg",
         "images/semaine1/ArriveeMaroc2.jpg",
         "images/semaine1/DevantSQORUS.jpg",
-        "images/semaine1/HassanII_0.jpg",
-        "images/semaine1/HassanII_1.jpg",
-        "images/semaine1/HassanII_2.jpg",
-        "images/semaine1/HassanII_3.jpg",
-        "images/semaine1/HassanII_4.jpg",
-        "images/semaine1/HassanII_5.jpg",
-        "images/semaine1/HassanII_6.jpg",
-        "images/semaine1/SurvolFrance.jpg",
         "images/semaine1/TerrasseSQORUS.jpg",
         "images/semaine1/Tortue.jpg",
-        "images/semaine1/orlyDep.jpg",
         "images/semaine1/rue.jpg"
       ]
     },
     {
       "week": 2,
       "images": [
-        "images/semaine2/image1.jpg",
-        "images/semaine2/image2.jpg"
+        "images/semaine2/HassanII_0.jpg",
+        "images/semaine2/HassanII_1.jpg",
+        "images/semaine2/HassanII_2.jpg",
+        "images/semaine2/HassanII_3.jpg",
+        "images/semaine2/HassanII_4.jpg",
+        "images/semaine2/HassanII_5.jpg",
+        "images/semaine2/HassanII_6.jpg"
       ]
     },
     {
