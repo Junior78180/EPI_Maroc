@@ -86,6 +86,19 @@ section h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.week-button_underconstruct {
+    display: block;
+    padding: 15px 20px;
+    background-color: rgb(255 140 0 / 0.20); ; /* Orange for buttons */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .week-button:hover {
     background-color: #FF6347; /* Tomato red on hover */
     transform: translateY(-3px);
