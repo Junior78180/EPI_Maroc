@@ -11,8 +11,6 @@
     {
       "week": 1,
       "images": [
-        "images/semaine1/orlyDep.jpg",
-        "images/semaine1/SurvolFrance.jpg",
         "images/semaine1/ArriveeMaroc.jpg",
         "images/semaine1/ArriveeMaroc2.jpg",
         "images/semaine1/DevantSQORUS.jpg",
@@ -38,7 +36,6 @@
     {
       "week": 3,
       "images": [
-        "images/semaine3/pizzeria.jpg",
         "images/semaine3/Porsche718SpiderRS.jpg",
         "images/semaine3/feu_artifice_0.jpg",
         "images/semaine3/feu_artifice_1.jpg",
@@ -50,8 +47,9 @@
     {
       "week": 4,
       "images": [
-        "images/semaine4/image1.jpg",
-        "images/semaine4/image2.jpg"
+        "images/semaine4/plage0.jpg",
+        "images/semaine4/plage1.jpg",
+        "images/semaine4/saladeTechnopark.jpg"
       ]
     },
     {
