@@ -11,6 +11,8 @@
     {
       "week": 1,
       "images": [
+        "images/semaine1/orlyDep.jpg",
+        "images/semaine1/SurvolFrance.jpg",
         "images/semaine1/ArriveeMaroc.jpg",
         "images/semaine1/ArriveeMaroc2.jpg",
         "images/semaine1/DevantSQORUS.jpg",
@@ -41,7 +43,8 @@
         "images/semaine3/feu_artifice_1.jpg",
         "images/semaine3/feu_artifice_2.jpg",
         "images/semaine3/feu_artifice_3.jpg",
-        "images/semaine3/feu_artifice_4.jpg"
+        "images/semaine3/feu_artifice_4.jpg",
+        "images/semaine3/pizzeria.jpg"
       ]
     },
     {
@@ -55,8 +58,7 @@
     {
       "week": 5,
       "images": [
-        "images/semaine5/image1.jpg",
-        "images/semaine5/image2.jpg"
+        "images/semaine5/couscous.jpg"
       ]
     },
     {
