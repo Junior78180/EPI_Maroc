@@ -106,22 +106,24 @@
     {
       "week": 10,
       "images": [
-        "images/semaine10/image1.jpg",
-        "images/semaine10/image2.jpg"
+        "images/semaine10/cine1.jpg",
+        "images/semaine10/cine2.jpg",
+        "images/semaine10/cine3.jpg"
       ]
     },
     {
       "week": 11,
       "images": [
-        "images/semaine11/image1.jpg",
-        "images/semaine11/image2.jpg"
+        "images/semaine11/sport.jpg"
       ]
     },
     {
       "week": 12,
       "images": [
-        "images/semaine12/image1.jpg",
-        "images/semaine12/image2.jpg"
+        "images/semaine12/Paris-orly.jpg",
+        "images/semaine12/fin_de_stage.jpg",
+        "images/semaine12/fin_de_stage1.jpg",
+        "images/semaine12/repas_de_fin_stage.jpg"
       ]
     }
   ]
